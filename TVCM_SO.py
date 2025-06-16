@@ -2,12 +2,12 @@
 TVCM_SO.py
 ===========
 
-This is a simple add-on for your TVCM_simple model that makes friend groups meet up sometimes.
+This is a simple add-on for the TVCM_simple model that makes friend groups meet up sometimes.
 Instead of everyone just wandering randomly, we pick groups of friends and have them "meet" in the same spot for a while.
 
 How it works:
 1. At the start, we:
-   - Keep a copy of your original model so we don't mess it up.
+   - Keep a copy of the original model so we don't mess it up.
    - Randomly create "friend groups" by picking nodes.
    - Give each group one or more "meeting hours" per day, making sure nobody has two meetings at once.
    - Set up tracking so we know who's currently at a meeting.
