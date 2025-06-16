@@ -1,8 +1,5 @@
 """
-TVCM_SO.py
-===========
-
-This is a simple add-on for the TVCM_simple model that makes friend groups meet up sometimes.
+This is an add-on for the TVCM_simple model that makes friend groups meet up sometimes.
 Instead of everyone just wandering randomly, we pick groups of friends and have them "meet" in the same spot for a while.
 
 How it works:
